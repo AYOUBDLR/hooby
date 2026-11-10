@@ -1,0 +1,6 @@
+{
+  "name": "Hobby Lobby Rewards Club - $500 Giftcard Portal",
+  "description": "Claim your $500 Hobby Lobby digital gift card by completing verified partner deals. Instant digital delivery, 100% secure, valid for all crafts and home decor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
