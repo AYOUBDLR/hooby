@@ -106,7 +106,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#FDFDFD] flex flex-col items-center justify-start pt-10 pb-16 px-4 sm:px-6">
+    <div className="min-h-screen bg-gradient-to-b from-[#E6F4FF] via-[#F2F9FF] to-[#DFF0FF] flex flex-col items-center justify-start pt-10 pb-16 px-4 sm:px-6">
       {/* Main Container - width matches screenshot card proportion */}
       <div className="w-full max-w-[500px]">
         {/* Header Branding (Matches Image 1) */}
@@ -130,7 +130,7 @@ export default function App() {
         </div>
 
         {/* Card 1: Quick Start Guide (Matches Image 1) */}
-        <div className="bg-white rounded-[22px] border border-gray-100 shadow-[0_2px_16px_rgba(0,0,0,0.04)] p-6 sm:p-7">
+        <div className="bg-white rounded-[22px] border border-sky-100 shadow-[0_8px_28px_rgba(7,69,130,0.08)] p-6 sm:p-7">
           {/* Card Title in exact Navy Blue */}
           <h2 className="text-[19px] sm:text-[20px] font-bold text-[#074582] mb-6">
             Quick Start Guide
@@ -248,7 +248,7 @@ export default function App() {
         </div>
 
         {/* Card 2: Common Questions (Matches Image 2) */}
-        <div className="bg-white rounded-[22px] border border-gray-100 shadow-[0_2px_16px_rgba(0,0,0,0.04)] p-6 sm:p-7 mt-5">
+        <div className="bg-white rounded-[22px] border border-sky-100 shadow-[0_8px_28px_rgba(7,69,130,0.08)] p-6 sm:p-7 mt-5">
           {/* Card Title in exact Navy Blue */}
           <h2 className="text-[19px] sm:text-[20px] font-bold text-[#074582] mb-5">
             Common Questions
@@ -302,16 +302,6 @@ export default function App() {
                 </div>
               )}
             </div>
-          </div>
-        </div>
-
-        {/* Footer (Matches Image 2 exactly) */}
-        <div className="mt-8 text-center select-none">
-          <div className="text-[13px] sm:text-[14px] text-[#6B7280] font-normal tracking-normal">
-            SSL Secured • Encrypted • Verified • 100% Safe
-          </div>
-          <div className="text-[13px] sm:text-[14px] text-[#6B7280] font-normal mt-1.5">
-            © 2026
           </div>
         </div>
       </div>
